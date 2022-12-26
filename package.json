@@ -1,0 +1,8 @@
+{
+  "name": "paper-one-time-pad",
+  "author": "Dominic Roy-Stang",
+  "license": "MIT",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js"
+}
