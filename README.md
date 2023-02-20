@@ -10,13 +10,24 @@ This is slightly harder than it would initially seem for the following reasons:
 ## Usage
 
 Example usage
-```
+```bash
 node index.js help
 node index.js encrypt 'hello world'
 node index.js decrypt 3182e77ed863fbf78a87d2 59e78b12b7438c98f8ebb6
 ```
 
-This was tested on NodeJS 16.15.0
+This was tested on NodeJS version 16.15.0
+
+Example usage with Docker (recommended)
+```bash
+docker build -t paper-one-time-pad .
+docker run -it paper-one-time-pad bash
+node index.js help
+node index.js encrypt 'hello world'
+node index.js decrypt 3182e77ed863fbf78a87d2 59e78b12b7438c98f8ebb6
+```
+
+This was tested on Docker version 23.0.1, build a5ee5b1
 
 ### Advanced usage notes
 
